@@ -36,9 +36,10 @@ int main(){
 
     cout << "What country are you from? " << endl;
     cin >> country;
-    cout << "I am from " << country << endl; 
     cout << "What is your gender,'m' for male, 'f' for female, o for other? " <<  endl;
     cin >> gender;
+
+    cout << "Entered country:\t" << country << "\nSelected gender:\t" << gender << endl;
 
     return 0;
 }
